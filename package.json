@@ -1,0 +1,32 @@
+{
+  "name": "learning-typescript-erickwendel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eswk22/Application.Membership.git"
+  },
+  "author": "Eswaran Krishnamoorthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eswk22/Application.Membership/issues"
+  },
+  "homepage": "https://github.com/eswk22/Application.Membership#readme",
+  "devDependencies": {
+    "clear": "0.0.1",
+    "connect": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-tsc": "^1.1.4",
+    "gulp-typescript-compiler": "^1.0.1",
+    "mongojs": "^2.2.2",
+    "mongoose": "^4.3.4"
+   },
+  "dependencies": {
+    "application.core": "git+https://github.com/eswk22/Application.Core.git",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.9.1"
+  }
+}
